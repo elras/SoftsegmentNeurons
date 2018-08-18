@@ -21,6 +21,11 @@ Make sure to activate the environment, then install Prox-TV library by:
 
     $ source activate softsegment
     $ pip install prox-tv
+ 
+If you get an error while installing prox-tv due to lapack.h, try following: 
+
+    $ sudo apt-get install liblapacke-dev
+
 
 ### How to run
 
