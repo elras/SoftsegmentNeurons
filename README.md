@@ -97,11 +97,11 @@ whose Bibtex entry is:
     @MastersThesis{bolkar2018,
         author     =     {Sabri Bolkar},
         title     =     {{Soft Segmentation of Viral Labeled Neurons}},
-        school     =     {NTNU and KU Leuven},
-        address     =     {Leuven},
+        school     =     {NTNU \& KU Leuven},
+        address     =     {Gjovik \& Leuven},
         year     =     {2018},
         }
-
+    
 ### References
 
 Our implementation is adapted from image manipulation algorithm developed by Tan et. al. (2015), please check their work here: https://github.com/CraGL/Decompose-Single-Image-Into-Layers \
