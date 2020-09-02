@@ -1,5 +1,7 @@
 ## Soft Segmentation and Reconstruction of of Viral Labeled Neurons from 3d Image Stacks
 
+### Note: This is a deprecated code written in python 2, it is being updated with python 3
+
 The script designed to segment spectral (pseudo-color) viral labeled dendritic trees. It avoids hard borders and creates soft segments for each distinct pseudo-color. The package contains automatic palette calculation and post-processing (in Matlab) scripts to obtain denoised binary masks from soft segments. We developed an image flattering algorithm based on weighted L1-norm total variation to increase diffusion of viral vectors, and implemented it using Prox-TV library. We also employed BaSIC ImageJ background subtraction plugin (freely available online, also included here), if the image is corrupted by heavy background noise. As an example, recovery of green and orange neurons can be seen below:
 
 <div align="center">
